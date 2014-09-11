@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Components Map</title>
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bower_components/mapbox.js/mapbox.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Web Components Map</h1>
+      <my-map map-id="dluxemburg.jfhafkkd" lat="45.528644" lon="-122.663201" zoom="12"></my-map>
+    </div>
+    <script src='/bower_components/mapbox.js/mapbox.js'></script>
+    <script>
+      L.mapbox.accessToken = 'pk.eyJ1IjoiZGx1eGVtYnVyZyIsImEiOiJseTFBTEpVIn0.0dwAI5PvfUT7UX9c2_jlfg'
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

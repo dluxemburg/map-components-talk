@@ -1,0 +1,1 @@
+var myMap = L.mapbox.map('my-map', window._MAP_ID)

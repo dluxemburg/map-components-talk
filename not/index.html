@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Not Map Components</title>
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bower_components/mapbox.js/mapbox.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Not Map Components</h1>
+      <div id="my-map"></div>
+    </div>
+    <script src='/bower_components/mapbox.js/mapbox.js'></script>
+    <script>
+      L.mapbox.accessToken = ''
+      window._MAP_ID = ''
+    </script>
+    <script src="script.js"></script>
+    <script>
+      myMap.setView([45.528644, -122.663201], 12)
+    </script>
+  </body>
+</html>
